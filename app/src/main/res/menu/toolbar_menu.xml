@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_mode_scan"
+        android:title="Simulate Host PC using mode BOX-SCAN"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_mode_finish"
+        android:title="Simulate Host PC using mode FINISH"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_receive_scan"
+        android:title="Simulate action receiving scan information"
+        app:showAsAction="never"/>
+</menu>

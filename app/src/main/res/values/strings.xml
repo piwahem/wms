@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">WMSAndroid</string>
+
+    <string name="label_material_receipt_with_package">QR : Material Receipt with Package</string>
+    <string name="label_qc_material">QR : QC - Material</string>
+    <string name="label_qc_skin_grade">QR : QC - Skin Grade</string>
+    <string name="label_qr_loading_material_into_rack">QR : Loading Material into Rack</string>
+    <string name="label_qr_fixing_receipt_quantity">QR : Fixing Receipt Qty</string>
+    <string name="label_qr_picking_material_with_package">QR : Picking Material with Package</string>
+    <string name="label_qr_picking_material_by_delivery_order">QR : Picking Material by Delivery-order</string>
+    <string name="label_qr_material_by_order_case">QR : Material Receipt by Other Case</string>
+    <string name="label_qr_material_checking">QR : Material Checking</string>
+    <string name="label_searching_material">Searching Material</string>
+
+    <string name="label_receipt_no">Receipt No</string>
+    <string name="label_qc_scan">QC Scan</string>
+    <string name="label_device">Device</string>
+    <string name="label_your_scan">Your scan</string>
+    <string name="label_carton">Carton</string>
+    <string name="label_mode">Mode</string>
+    <string name="label_box_scan">Box Scan</string>
+
+    <string name="label_scan_id">Scan ID</string>
+    <string name="label_scan_information">Scan Information</string>
+    <string name="label_do_no">DO No</string>
+    <string name="label_po_no">PO No</string>
+    <string name="label_ao">AO#</string>
+    <string name="label_ctn_qty">CTN Qty</string>
+    <string name="label_supplier">Supplier</string>
+    <string name="label_item_cd">Item CD</string>
+    <string name="label_item_name">Item Name</string>
+    <string name="label_cargo_cls_date">Cargo CLS DATE</string>
+    <string name="label_color_way">Color Way</string>
+    <string name="label_sos_origin">SOS Origin</string>
+    <string name="label_package_no">Package No</string>
+    <string name="label_number_of_material">Number of material</string>
+    <string name="label_add_material_same_box">Add material in same box</string>
+    <string name="label_camera">Camera</string>
+    <string name="label_ok">Ok</string>
+    <string name="label_finished">Finished</string>
+    <string name="label_stop">Stop</string>
+    <string name="label_login">Login</string>
+    <string name="label_login_page">Login page</string>
+    <string name="label_user_id">User ID</string>
+    <string name="label_password">Password</string>
+    <string name="label_sign_out">Sign out</string>
+    <string name="label_title">Title</string>
+    <string name="label_cancel">Cancel</string>
+
+
+    <string name="message_click_back_again_to_exit">Please click BACK again to exit</string>
+    <string name="message_response_deny_camera_permission">We need your camera, storage permission for this feature</string>
+    <string name="message_response_never_ask_again_camera_permission">Please enable camera, storage in permission app settings</string>
+
+    <string name="label_value_scan_information">Scan information blablabla...</string>
+
+</resources>
