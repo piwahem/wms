@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="rowReceipt" />
+    <item type="id" name="rowQCScan" />
+    <item type="id" name="rowDevice" />
+    <item type="id" name="rowYourScan" />
+    <item type="id" name="rowMode" />
+    <item type="id" name="rowBoxScan" />
+
+    <item type="id" name="rowScanId" />
+    <item type="id" name="rowDono" />
+    <item type="id" name="rowAo" />
+    <item type="id" name="rowPono" />
+    <item type="id" name="rowCTNQty" />
+    <item type="id" name="rowSupplier" />
+    <item type="id" name="rowItemCD" />
+    <item type="id" name="rowCargoDate" />
+    <item type="id" name="rowItemName" />
+    <item type="id" name="rowColorWay" />
+    <item type="id" name="rowSOSOrigin" />
+    <item type="id" name="rowPackageNo" />
+    <item type="id" name="rowAddMaterialInSameBox" />
+
+
+    <item type="id" name="progressBar" />
+    <item type="id" name="btnOk" />
+    <item type="id" name="btnCamera" />
+    <item type="id" name="edtInputNumber" />
+
+    <item type="id" name="rowScanInfo" />
+    <item type="id" name="iv" />
+    <item type="id" name="cb" />
+    <item type="id" name="edtSearch" />
+    <item type="id" name="rv" />
+    <item type="id" name="rvImage" />
+</resources>
