@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTitleMaterialWarehouse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Material Warehouse"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#F2F2F2"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMaterialWarehouse_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/item_view_slide_menu"
+        tools:itemCount="4"
+        />
+
+    <TextView
+        android:id="@+id/tvFinishedGoodWarehouse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finished goods Warehouse"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#F2F2F2"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvFinishedGoodWarehouse_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/item_view_slide_menu"
+        tools:itemCount="1"
+        />
+
+    <TextView
+        android:id="@+id/tvSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Setting"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#F2F2F2"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSetting_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/item_view_slide_menu"
+        tools:itemCount="1"
+        />
+
+</LinearLayout>

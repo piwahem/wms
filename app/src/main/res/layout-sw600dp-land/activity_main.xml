@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ln"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/fragSlideMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/SessionInfoStyle"
+                android:text="example" />
+
+            <TextView
+                style="@style/SessionInfoStyle"
+                android:text="PK2-M:W/H" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimaryDark"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:theme="@style/AppTheme.White"
+            app:title="@string/app_name"
+            app:titleTextColor="@android:color/white" />
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/fragSlideMenu"
+        class="com.example.feature.SlideMenuFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ln"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="0.3" />
+
+
+    <FrameLayout
+        android:id="@+id/flContainer"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/fragSlideMenu"
+        app:layout_constraintTop_toBottomOf="@+id/ln" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
